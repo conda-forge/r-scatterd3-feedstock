@@ -5,11 +5,9 @@ Home: https://juba.github.io/scatterD3/
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-scatterd3-feedstock/blob/master/LICENSE.txt)
 
 Summary: Creates 'D3' 'JavaScript' scatterplots from 'R' with interactive features : panning, zooming, tooltips, etc.
-
-
 
 Current build status
 ====================
