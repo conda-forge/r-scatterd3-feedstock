@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scatterD3_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scatterD3/scatterD3_{{ version }}.tar.gz
-  sha256: c0df037d4bb9746dfe07cf0e90d226a3aa1fc343d9d1fb642dc6efeabefe2a58
+  sha256: 950cde28cbbaa915c3469f60908a29095bff6035d1bb79abbeb6a85d7cc0f2a0
 
 build:
   merge_build_host: true  # [win]
