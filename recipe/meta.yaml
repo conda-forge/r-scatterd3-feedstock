@@ -1,6 +1,5 @@
 {% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-scatterd3
@@ -13,8 +12,7 @@ source:
   sha256: 950cde28cbbaa915c3469f60908a29095bff6035d1bb79abbeb6a85d7cc0f2a0
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
