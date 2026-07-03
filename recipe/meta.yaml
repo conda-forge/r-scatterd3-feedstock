@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scatterD3_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scatterD3/scatterD3_{{ version }}.tar.gz
-  sha256: 950cde28cbbaa915c3469f60908a29095bff6035d1bb79abbeb6a85d7cc0f2a0
+  sha256: 0e9f998a9929fb9b20e2ea4f82317af76e1c58f0f2a1c35dd2d66cf5f1b54c84
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
